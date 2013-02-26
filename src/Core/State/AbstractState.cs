@@ -1,4 +1,5 @@
-﻿
+﻿// Based on examples at http://www.dofactory.com/Patterns/PatternState.aspx
+
 namespace DesignPatterns.Core.State
 {
     public abstract class AbstractState : IState
