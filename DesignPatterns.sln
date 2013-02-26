@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Express 2012 for Windows Desktop
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "src\Core\Core.csproj", "{33F7E8E3-37AF-4713-B4A3-9E5A6905A6F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleRunner", "src\ExampleRunner\ExampleRunner.csproj", "{2BE913F8-BDB6-4109-AEFB-82263BEBE6D8}"
