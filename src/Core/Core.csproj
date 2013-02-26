@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{33F7E8E3-37AF-4713-B4A3-9E5A6905A6F6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DesignPatterns.Core</RootNamespace>
+    <AssemblyName>DesignPatterns.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\..\packages\DotNetZip.1.9.1.8\lib\net20\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyExtensions.cs" />
+    <Compile Include="ByteExtensions.cs" />
+    <Compile Include="Decorator\ConsoleLogger.cs" />
+    <Compile Include="Decorator\AuditedProductRepository.cs" />
+    <Compile Include="Decorator\DecoratorExample1.cs" />
+    <Compile Include="Decorator\DecoratorExample2.cs" />
+    <Compile Include="Decorator\NotAuthorizedException.cs" />
+    <Compile Include="Decorator\SecureProductRepository.cs" />
+    <Compile Include="Disposable.cs" />
+    <Compile Include="Ensure.cs" />
+    <Compile Include="EnumerableExtensions.cs" />
+    <Compile Include="Decorator\Environment.cs" />
+    <Compile Include="Example.cs" />
+    <Compile Include="Decorator\IEnvironment.cs" />
+    <Compile Include="IExample.cs" />
+    <Compile Include="Decorator\ILogger.cs" />
+    <Compile Include="Decorator\IProductRepository.cs" />
+    <Compile Include="NullObject\ClassThatUsesLogger.cs" />
+    <Compile Include="NullObject\ILogger.cs" />
+    <Compile Include="NullObject\Logger.cs" />
+    <Compile Include="NullObject\NullLogger.cs" />
+    <Compile Include="NullObject\NullObjectExample1.cs" />
+    <Compile Include="Observer\IObserver.cs" />
+    <Compile Include="Observer\ISubject.cs" />
+    <Compile Include="Observer\ObserverExample1.cs" />
+    <Compile Include="Observer\Stock.cs" />
+    <Compile Include="Observer\StockTicker.cs" />
+    <Compile Include="Decorator\Product.cs" />
+    <Compile Include="Decorator\ProductRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Decorator\User.cs" />
+    <Compile Include="State\AbstractState.cs" />
+    <Compile Include="State\Account.cs" />
+    <Compile Include="State\GoldState.cs" />
+    <Compile Include="State\IState.cs" />
+    <Compile Include="State\RedState.cs" />
+    <Compile Include="State\SilverState.cs" />
+    <Compile Include="State\StateExample1.cs" />
+    <Compile Include="Strategy\Compression\BCLDeflateCompression.cs" />
+    <Compile Include="Strategy\Compression\BCLGZipCompression.cs" />
+    <Compile Include="Strategy\Compression\BZip2Compression.cs" />
+    <Compile Include="Strategy\Compression\CompressionStrategyExample.cs" />
+    <Compile Include="Strategy\Compression\Data.cs" />
+    <Compile Include="Strategy\Compression\DeflateCompression.cs" />
+    <Compile Include="Strategy\Compression\EncryptedZLibCompression.cs" />
+    <Compile Include="Strategy\Compression\GZipCompression.cs" />
+    <Compile Include="Strategy\Compression\ICompression.cs" />
+    <Compile Include="Strategy\Compression\DataCompressor.cs" />
+    <Compile Include="Strategy\Compression\StreamExtensions.cs" />
+    <Compile Include="Strategy\Compression\ZLibCompression.cs" />
+    <Compile Include="Strategy\Cryptography\CryptoParameters.cs" />
+    <Compile Include="Strategy\Cryptography\CryptoUtility.cs" />
+    <Compile Include="Strategy\Cryptography\EncryptionStrategyExample.cs" />
+    <Compile Include="Strategy\Cryptography\IKeyGenerator.cs" />
+    <Compile Include="Strategy\Cryptography\ISaltGenerator.cs" />
+    <Compile Include="Strategy\Cryptography\KeyParameters.cs" />
+    <Compile Include="Strategy\Cryptography\KeyGenerator.cs" />
+    <Compile Include="Strategy\Cryptography\RNGSaltGenerator.cs" />
+    <Compile Include="Strategy\Hasher.cs" />
+    <Compile Include="Strategy\HashUtil.cs" />
+    <Compile Include="Strategy\Cryptography\ICryptoUtility.cs" />
+    <Compile Include="Strategy\IHasher.cs" />
+    <Compile Include="Strategy\MD5Hasher.cs" />
+    <Compile Include="Strategy\SHA1Hasher.cs" />
+    <Compile Include="Strategy\SHA256Hasher.cs" />
+    <Compile Include="Strategy\StrategyExample1.cs" />
+    <Compile Include="Visitor\ILeaf.cs" />
+    <Compile Include="Visitor\INameable.cs" />
+    <Compile Include="Visitor\IVisitor.cs" />
+    <Compile Include="Visitor\Test.cs" />
+    <Compile Include="Visitor\TestFixture.cs" />
+    <Compile Include="Visitor\Visitor.cs" />
+    <Compile Include="Visitor\VisitorExample.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

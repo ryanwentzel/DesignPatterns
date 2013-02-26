@@ -1,0 +1,16 @@
+﻿
+namespace DesignPatterns.Core.Strategy.Compression
+{
+    public static class Data
+    {
+        public static readonly string LoremIpsum = @"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nisi tellus. Donec nunc mauris, consequat nec pharetra et, tincidunt ac leo. Nam vel dui sit amet augue dignissim interdum commodo tempus leo. Ut egestas risus at augue ullamcorper auctor. Nam id ante quam. Etiam vulputate tincidunt lacinia. Integer dapibus molestie neque at auctor. Duis pharetra consequat eleifend. Sed eu luctus lorem. Curabitur eget tortor ante, a posuere lectus. Vestibulum bibendum gravida nunc. Nunc ultrices velit ut augue placerat aliquet. Proin diam risus, elementum eget pellentesque quis, fringilla sed nisl. Suspendisse ac arcu arcu, vitae lobortis sapien.
+
+Mauris tempor consectetur nisi malesuada volutpat. Nam aliquet convallis est, a iaculis ligula fringilla a. Nulla sed erat tellus, ullamcorper condimentum nisi. Aliquam ac risus augue. Ut elementum malesuada rutrum. Aliquam et nulla ac justo posuere gravida eget ac dui. Vivamus quis metus id nisi luctus consequat sodales congue nibh. Ut a mi mi, a vestibulum sem. Donec sed tortor sed massa condimentum fringilla ac malesuada orci. Quisque urna tortor, ornare posuere imperdiet vel, interdum vitae diam. Maecenas a magna eu est mattis dignissim. Nulla scelerisque magna at orci bibendum vitae fermentum velit aliquet. Sed dictum sem a diam accumsan elementum. Proin vel viverra est.
+
+In hac habitasse platea dictumst. Nullam id venenatis sapien. Quisque scelerisque bibendum volutpat. Suspendisse a vulputate arcu. Donec scelerisque leo et lacus iaculis tincidunt. Phasellus vitae lorem eget enim facilisis tempus. Donec ut elit odio, quis malesuada felis. Nam ultrices velit in est consectetur rutrum. Praesent lacinia porta gravida. Integer vitae lorem id ligula facilisis semper. Nullam egestas dui porttitor est molestie eu faucibus arcu suscipit. Nam velit nunc, eleifend sed convallis non, lobortis et nisl. Nulla facilisis arcu nunc, non tincidunt sapien. Mauris ac lorem a nibh pretium pulvinar.
+
+Nulla porttitor tempor metus, nec porttitor odio rhoncus at. Fusce dapibus malesuada eros a lobortis. Nulla ullamcorper est id orci laoreet in imperdiet tellus porttitor. Integer risus sapien, convallis in dictum quis, tempus quis nulla. Nam in eros sed justo ullamcorper consectetur sed nec elit. Sed eu orci vitae metus iaculis sagittis vel eget tortor. Cras dignissim viverra neque, eget convallis ipsum ultrices eu. Nunc cursus sollicitudin orci blandit posuere.
+
+Fusce sit amet risus metus, a varius nulla. Suspendisse ac nibh ut purus scelerisque vestibulum. Phasellus porttitor sodales tempor. Duis id ante enim. Suspendisse bibendum, tellus vitae ullamcorper vulputate, orci quam dapibus erat, sit amet vulputate libero leo et turpis. Aliquam in felis quis leo venenatis laoreet. Donec sed eleifend nunc. Ut pellentesque dignissim aliquet. Cras ultrices cursus ligula, et ornare dui auctor at. Praesent mollis erat eu ligula auctor sodales. In hac habitasse platea dictumst. Maecenas eget quam dignissim urna accumsan viverra id sit amet odio. Quisque scelerisque gravida justo id bibendum. Nulla ipsum leo, tristique quis varius eu, cursus ut mauris. Vivamus sagittis scelerisque tellus quis placerat. Nam id interdum orci.";
+    }
+}
